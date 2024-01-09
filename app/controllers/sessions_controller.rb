@@ -4,8 +4,6 @@ class SessionsController < ApplicationController
   def show; end
 
   def new
-    puts "---------------------------------------------------------------------------"
-    puts session
     @user = User.new
   end
 
